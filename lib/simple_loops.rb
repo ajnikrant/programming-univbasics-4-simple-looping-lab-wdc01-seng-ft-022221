@@ -9,7 +9,7 @@
 def loop_message_five_times (array)
   count = 0
   while count < array.length
-    5.time puts {array[count]}
+    5.times puts {array[count]}
     count += 1
   end
 end
