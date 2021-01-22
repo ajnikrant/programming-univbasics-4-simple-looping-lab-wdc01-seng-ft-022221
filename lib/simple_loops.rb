@@ -19,7 +19,7 @@ end
 
 def loop_message_n_times(array, integer)
   count = 0
-  while count < array.length
+  while count < integer
     puts array
     count += 1
   end
