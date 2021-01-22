@@ -9,7 +9,7 @@
 def loop_message_five_times (array)
   count = 0
   while count <=5 do
-    puts loop_message_five_times[counter]
+    puts array[counter]
     count += 1
   end
 end
