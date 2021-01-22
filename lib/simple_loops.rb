@@ -24,3 +24,11 @@ def loop_message_n_times(array, integer)
     count += 1
   end
 end
+
+def output_array (array)
+  count = 0
+  while count < array.length
+    puts array
+    count += 1
+  end
+end
