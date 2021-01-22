@@ -1,5 +1,5 @@
 # Write your methods here
-# require 'pry'
+require 'pry'
 # def method_name(parameter)
 #   count = 0
 #   while count < (something)
@@ -13,5 +13,14 @@ def loop_message_five_times (array)
     puts array
     count += 1
     # binding.pry
+  end
+end
+
+
+def loop_message_n_times(array, integer)
+  count = 0
+  while count < array.length
+    puts array
+    count += 1
   end
 end
