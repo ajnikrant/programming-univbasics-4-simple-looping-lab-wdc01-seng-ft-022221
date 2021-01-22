@@ -1,5 +1,5 @@
 # Write your methods here
-requires 'pry'
+require 'pry'
 # def method_name(parameter)
 #   count = 0
 #   while count < (something)
