@@ -12,6 +12,6 @@ def loop_message_five_times (array)
   while count < 5
     puts array
     count += 1
-    binding.pry
+    # binding.pry
   end
 end
