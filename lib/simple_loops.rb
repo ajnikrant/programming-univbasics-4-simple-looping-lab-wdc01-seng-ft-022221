@@ -9,8 +9,8 @@ require 'pry'
 # end
 def loop_message_five_times (array)
   count = 0
-  while count < array.length
-    5.times puts array
+  while count < 5
+    puts array
     count += 1
     binding.pry
   end
